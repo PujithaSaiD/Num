@@ -1,0 +1,13 @@
+n=int(input())
+l=[]
+for i in range(n):
+  a=input()
+  l.append(a)
+print(l)
+for i in l:
+  if(i.isdigit()):
+    print("Integer")
+  elif(type(i)=='str'):
+    print("string")
+  else:
+    print("Float")
